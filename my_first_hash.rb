@@ -23,7 +23,8 @@ def retrieval
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-  hash = {"2" => "3"}
+  hash = {"oil paintings" => "3"}
+  hash[2] = "3"
 
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
 
